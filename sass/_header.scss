@@ -1,8 +1,12 @@
 header {
-	height: 65vh;
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/coffeebeans.jpg) fixed no-repeat;
-	background-size: cover;
-	background-position: bottom center;
+	.header-bg {
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		height: 65vh;
+		position: relative;
+		background: url(images/coffeebeans.jpg);
+		background-size: cover;
+	}
 	.container {
 		margin: 0;
 		max-width: 100%;
