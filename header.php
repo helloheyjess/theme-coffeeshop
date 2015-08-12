@@ -20,16 +20,18 @@
 <body <?php body_class(); ?>>
 
 <header>
-  <div class="container">
-    <?php wp_nav_menu( array(
-      'container' => 'false',
-      'theme_locations' => 'primary'
-    )); ?>
-    <div class="logo">
-      <h1><?php bloginfo( 'name' ); ?></h1>
-      <h2><?php echo get_bloginfo ( 'description' ); ?></h2>
-    </div>
+  <div class="header-bg" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <?php wp_nav_menu( array(
+        'container' => 'false',
+        'theme_locations' => 'primary'
+      )); ?>
+      <div class="logo">
+        <h1><?php bloginfo( 'name' ); ?></h1>
+        <h2><?php echo get_bloginfo ( 'description' ); ?></h2>
+      </div>
 
-  </div> <!-- /.container -->
+    </div> <!-- /.container -->
+  </div>
 </header><!--/.header-->
 
