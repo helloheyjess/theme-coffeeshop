@@ -1,0 +1,31 @@
+header {
+	height: 65vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/coffeebeans.jpg) fixed no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	.container {
+		margin: 0;
+		max-width: 100%;
+	}
+	.logo {
+		color: #FCFDE6;
+		padding: 4%;
+		text-align: center;
+		margin: 25px;
+	}
+	h1 {
+		font-size: 65px;
+		margin: 0;
+		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
+	}
+	h2 {
+		margin: 0;
+		font-size: 16px;
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 20px;
+		font-family: 'Open Sans', sans-serif;
+		background: #FF8B00;
+	}
+}
