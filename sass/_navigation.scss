@@ -1,14 +1,16 @@
 ul.menu {
 	margin: 0;
-	padding: 0;
+	padding: 3%;
+	background: rgba(255,255,255,0.8);
+	text-align: right;
 	li {
 		display: inline;
 		margin-right: 10px;
 		a {
 			color: #333;
 			padding: 10px;
-			background: #333;
-			color: white;
+			color: $black;
+			text-transform: uppercase;
 		}
 	}
 }
