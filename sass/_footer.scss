@@ -3,9 +3,10 @@ footer {
 }
 
 .main-footer {
+	padding: 25px 0;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	background: $black;
 	color: $lightgrey;
 	a {
@@ -32,6 +33,8 @@ footer {
 }
 
 .social-box {
+	display: flex;
+	justify-content: flex-start;
 	i {
 		width: 40px;
 		font-size: 1.2rem;
