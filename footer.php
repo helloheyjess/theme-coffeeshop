@@ -1,7 +1,30 @@
-<footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
-  </div>
+<footer class="main-footer">
+	<div class="container">
+		<div class="footer-top-container">
+			<div class="social-box footer-triplet">
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-foursquare"></i>
+			</div>
+			<div class="footer-nav footer-triplet">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="signup-box footer-triplet">
+				<a href="#">
+					<p class="signup">Sign up to mailing list</p>
+				</a>
+			</div>
+		</div> <!-- /.footer-top-container -->
+		<div class="footer-bottom-container">
+			<p>Free shipping on orders over $50 within Canada</p>
+		</div> <!-- /.footer-bottom-container -->
+	</div> <!-- /.container -->
 </footer>
 
 <script>

@@ -1,3 +1,48 @@
 footer {
 	clear: both;
 }
+
+.main-footer {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.8rem;
+	background: $black;
+	color: $lightgrey;
+	a {
+		color: $lightgrey;
+		text-decoration: none;
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-top-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	ul {
+		padding: 0;
+		li {
+			list-style: none;
+		}
+	}
+}
+
+.social-box {
+	i {
+		width: 40px;
+		font-size: 1.2rem;
+	}
+}
+
+.footer-triplet {
+	width: 20%;
+}
+
+.signup {
+	padding: 5px;
+	border: 2px solid $lightgrey;
+}
