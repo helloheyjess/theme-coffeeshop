@@ -23,8 +23,8 @@ get_header();  ?>
 			<div class="locations">
 			  	<?php $loop = new WP_Query( array( 'post_type' => 'locations', 'posts_per_page' => -1 ) ); ?>
 			  	<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-			  		<div class="single-location">
-			  			<h2><?php the_title(); ?></h2>
+			  		<div class="single-location" style="background: url('<?php echo the_field('custom_background'); ?>') center; background-size: cover; ">
+			  			<a href="<?php echo get_post_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
 			  		</div>
 			  	<?php endwhile; wp_reset_query(); ?>
 			</div>
