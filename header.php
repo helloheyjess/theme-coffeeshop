@@ -29,11 +29,7 @@
         'theme_locations' => 'primary'
       )); ?>
       <div class="logo">
-        <?php
-               $siteLogo = get_field('website_logo',4); // 1476 is post id                               
-               $size = 'full'; // (thumbnail, medium, large, full or custom size)
-               if( $siteLogo ) { echo wp_get_attachment_image( $siteLogo, $size ); }
-           ?>
+           <img src="<?php echo get_field('website_logo');?>" alt="wah">
       </div>
 
     </div> <!-- /.container -->
