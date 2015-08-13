@@ -16,7 +16,10 @@ get_header();  ?>
       <?php the_content(); ?>
 
     <?php endwhile; // end the loop?>
+
+
   </div> <!-- /.container -->
+			<div class="instagram-container"><?php the_field('instagram'); ?></div>
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>
