@@ -1,6 +1,11 @@
 <footer class="main-footer">
 	<div class="container">
 		<div class="footer-top-container">
+			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) ?>
+		</div>
+	</div>
+	<!-- <div class="container">
+		<div class="footer-top-container">
 			<div class="social-box footer-triplet">
 				<a href="#"><i class="fa fa-twitter"></i></a>
 				<a href="#"><i class="fa fa-facebook"></i></a>
@@ -20,11 +25,11 @@
 					<p class="signup">Sign up to mailing list</p>
 				</a>
 			</div>
-		</div> <!-- /.footer-top-container -->
-		<div class="footer-bottom-container">
+		</div> --> <!-- /.footer-top-container -->
+		<!-- <div class="footer-bottom-container">
 			<p>Free shipping on orders over $50 within Canada</p>
-		</div> <!-- /.footer-bottom-container -->
-	</div> <!-- /.container -->
+		</div>  --><!-- /.footer-bottom-container -->
+	<!-- </div> --> <!-- /.container -->
 </footer>
 
 <script>
