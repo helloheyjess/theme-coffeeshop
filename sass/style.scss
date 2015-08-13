@@ -38,6 +38,12 @@ body {
 	float: left;
 	width: 65%;
 	margin-right: 5%;
+	a {
+		color: $black;
+		&:hover {
+			color: $orange;
+		}
+	}
 }
 
 .full {
