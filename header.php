@@ -30,7 +30,7 @@
       )); ?>
       <div class="logo">
         <?php
-               $siteLogo = get_field('website_logo',2); // 1476 is post id                               
+               $siteLogo = get_field('website_logo',4); // 1476 is post id                               
                $size = 'full'; // (thumbnail, medium, large, full or custom size)
                if( $siteLogo ) { echo wp_get_attachment_image( $siteLogo, $size ); }
            ?>
