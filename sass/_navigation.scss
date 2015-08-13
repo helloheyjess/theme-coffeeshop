@@ -1,7 +1,7 @@
 ul.menu {
 	margin: 0;
 	padding: 3%;
-	background: rgba(255,255,255,0.8);
+	background: rgba(#eee,0.6);
 	text-align: right;
 	li {
 		display: inline;
@@ -11,6 +11,7 @@ ul.menu {
 			padding: 10px;
 			color: $black;
 			text-transform: uppercase;
+			font-weight: 600;
 		}
 	}
 }

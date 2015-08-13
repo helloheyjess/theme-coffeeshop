@@ -5,6 +5,8 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php  wp_title('|', true, 'right'); ?></title>
+  <script src="http://use.typekit.net/lik7yju.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -27,8 +29,11 @@
         'theme_locations' => 'primary'
       )); ?>
       <div class="logo">
-        <h1><?php bloginfo( 'name' ); ?></h1>
-        <h2><?php echo get_bloginfo ( 'description' ); ?></h2>
+        <?php
+               $siteLogo = get_field('website_logo',2); // 1476 is post id                               
+               $size = 'full'; // (thumbnail, medium, large, full or custom size)
+               if( $siteLogo ) { echo wp_get_attachment_image( $siteLogo, $size ); }
+           ?>
       </div>
 
     </div> <!-- /.container -->
