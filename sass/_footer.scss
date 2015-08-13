@@ -57,4 +57,9 @@ footer {
 .signup {
 	padding: 5px;
 	border: 2px solid $lightgrey;
+	transition: all 0.5s ease;
+	&:hover {
+		background: $lightgrey;
+		color: $black;
+	}
 }
