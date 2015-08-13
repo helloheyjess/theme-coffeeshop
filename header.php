@@ -29,8 +29,10 @@
         'theme_locations' => 'primary'
       )); ?>
       <div class="logo">
-           <img src="<?php echo get_field('website_logo');?>" alt="wah">
+            <?php $imageurl = get_field('website_logo', 2); ?>
+           <img src="<?php echo $imageurl;?>" alt="wah">
       </div>
+  
 
     </div> <!-- /.container -->
   </div>
