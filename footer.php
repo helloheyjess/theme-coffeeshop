@@ -1,6 +1,8 @@
 <footer class="main-footer">
 	<div class="container">
-		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) ?>
+		<div class="footer-top-container">
+			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) ?>
+		</div>
 	</div>
 	<!-- <div class="container">
 		<div class="footer-top-container">
