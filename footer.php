@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="footer-top-container">
 			<div class="social-box footer-triplet">
-				<i class="fa fa-twitter"></i>
-				<i class="fa fa-facebook"></i>
-				<i class="fa fa-instagram"></i>
-				<i class="fa fa-foursquare"></i>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-foursquare"></i></a>
 			</div>
 			<div class="footer-nav footer-triplet">
 				<ul>
