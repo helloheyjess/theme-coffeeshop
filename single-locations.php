@@ -9,8 +9,12 @@
 		} 
 		?>
         <h2><?php the_title(); ?></h2>
-		<?php the_content(); ?>
-		
+        <div class="location-info">
+			<?php the_content(); ?>
+        </div>
+		<div class="location-address">
+			<?php the_field('location_address'); ?>
+		</div>
       <?php endwhile; // end of the loop. ?>
     </div>
   </div> <!-- /.innerWrapper -->
