@@ -5,6 +5,10 @@
 	flex-wrap: wrap;
 	a {
 		color: $warmwhite;
+		transition: all 0.25s ease-in-out;
+		&:hover {
+			
+		}
 	}
 	h3 {
 		background: rgba($orange, 0.8); 
