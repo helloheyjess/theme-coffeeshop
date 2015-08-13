@@ -165,6 +165,14 @@ function hackeryou_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 
+	register_sidebar(array(
+		'name' => 'Footer',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
+	));
+
 }
 
 add_action( 'widgets_init', 'hackeryou_widgets_init' );
