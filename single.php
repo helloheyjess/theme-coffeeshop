@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="main">
+<div class="main single-main">
   <div class="container">
 
     <div class="content">
@@ -38,7 +38,7 @@
 
     </div> <!-- /.content -->
 
-    <?php get_sidebar(); ?>
+    <?php /*get_sidebar();*/ ?>
 
   </div> <!-- /.container -->
 </div> <!-- /.main -->
