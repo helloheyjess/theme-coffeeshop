@@ -1,18 +1,22 @@
 ul.menu {
 	margin: 0;
 	padding: 2%;
-	background: rgba(#eee,0.6);
-	text-align: right;
-	box-shadow: 1px 1px 1px #222;
+	// background: rgba(#eee,0.6);
+	text-align: center;
+	// box-shadow: 1px 1px 1px #222;
 	li {
 		display: inline;
 		margin-right: 10px;
 		a {
-			color: #333;
-			padding: 10px;
-			color: $black;
+			color: $warmwhite;
+			padding: 5px 55px;
+			background: rgba($black, 0.5);
 			text-transform: uppercase;
-			font-weight: 600;
+			font-weight: 400;
+			font-size: 18px;
+			font-family: 'Oswald', sans-serif;
+			letter-spacing: 1px;
+			border: 2px solid $orange;
 		}
 	}
 }
