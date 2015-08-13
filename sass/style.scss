@@ -12,6 +12,7 @@
 @import 'header';
 @import 'navigation';
 @import 'main-content.scss';
+@import 'single-post.scss';
 @import 'locations';
 @import 'sidebar';
 @import 'comments';
@@ -51,7 +52,7 @@ body {
 article.post {
 	background: #eee;
 	padding: 25px;
-	border-top: 10px solid $orange;
+	border-top: 5px solid $orange;
 	margin-top: 50px;
 }
 
