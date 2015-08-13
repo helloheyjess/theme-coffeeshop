@@ -35,9 +35,34 @@ body {
 }
 
 .content {
-	float: left;
-	width: 65%;
-	margin-right: 5%;
+	margin: 0 auto;
+	// float: left;
+	max-width: 80%;
+	// margin-right: 5%;
+	a {
+		color: $black;
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+
+article.post {
+	background: #eee;
+	padding: 25px;
+	border-top: 10px solid $orange;
+	margin-top: 50px;
+}
+
+.content article footer {
+	display: flex;
+	justify-content: center;
+	p {
+		color: lighten($black, 30%);
+	}
+	a {
+		color: lighten($black, 30%);
+	}
 }
 
 .full {
