@@ -1,26 +1,21 @@
 ul.menu {
 	margin: 0;
 	padding: 2%;
-	// background: rgba(#eee,0.6);
 	text-align: center;
-	// box-shadow: 1px 1px 1px #222;
 	li {
-		display: inline;
+		display: inline-block;
 		margin-right: 10px;
+		margin-bottom: 20px;
+		width: 200px;
+		border: 2px solid $orange;
 		a {
 			color: $warmwhite;
-			padding: 5px 55px;
 			background: rgba($black, 0.5);
 			text-transform: uppercase;
 			font-weight: 400;
 			font-size: 18px;
 			font-family: 'Oswald', sans-serif;
 			letter-spacing: 1px;
-			border: 2px solid $orange;
-			transition: all 0.5s ease;
-			&:hover {
-				background: $black;
-			}
 		}
 	}
 }
