@@ -1,9 +1,9 @@
-.locations {
+.location-container {
 	display: flex;
 	justify-content: center;
 	text-align: center;
 	flex-wrap: wrap;
-	a {
+	.location-link {
 		color: $warmwhite;
 		transition: all 0.25s ease-in-out;
 		background: rgba($orange, 0.9); 
@@ -15,24 +15,41 @@
 	}
 }
 
+.location {
+	display: flex;
+	border-top: 5px solid $orange;
+	background: $warmwhite;
+	padding: 2.5%;
+}
+
 .single-location {
 	width: 25%;
 	padding: 15% 0;
 }
 
 .single-location-img {
+	width: 45%;
+	margin-right: 5%;
 	img {
-		border: 5px solid $warmwhite;
-		border-radius: 4px;
-		min-width: 500px;
+		width: 100%;
+		height: auto;
 	}
 }
 
-.location-info {
+.single-location-content {
+	h2 {
+		margin: 0;
+	}
+	p {
+		margin: 10px 0;
+	}
+	width: 50%;
 	text-align: left;
+
 }
 
 .location-address {
-	text-align: left;
-	padding: 10px;
+	p {
+		color: $orange;
+	}
 }

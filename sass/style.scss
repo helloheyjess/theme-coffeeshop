@@ -49,7 +49,8 @@ body {
 	}
 }
 
-article.post {
+article.post,
+.locations {
 	background: #eee;
 	padding: 25px;
 	border-top: 5px solid $orange;
