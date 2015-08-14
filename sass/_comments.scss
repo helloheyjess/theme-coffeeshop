@@ -67,6 +67,10 @@ h3 {
 }
 
 .comment-author {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	cite {
 		color: #000000;
 		font-style: normal;
@@ -74,12 +78,19 @@ h3 {
 	}
 	.says {
 		font-style: italic;
+		margin-left: 3px;
 	}
 }
 
 .comment-meta {
+	display: flex;
+	flex-direction: column-reverse;
 	font-size: 12px;
 	margin: 0 0 5px;
+	.avatar {
+		margin-right: 35px;
+		border-radius: 50%;
+	}
 	a {
 		&:link, &:visited {
 			color: #888888;
@@ -109,6 +120,10 @@ a.comment-edit-link {
 	margin-bottom: 18px;
 	padding-bottom: 18px;
 	border-bottom: 1px solid #e7e7e7;
+}
+
+li.comment {
+	margin-bottom: 20px;
 }
 
 .commentlist li.comment + li.pingback {
