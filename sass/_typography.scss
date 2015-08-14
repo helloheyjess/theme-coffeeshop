@@ -16,10 +16,10 @@ h3 {
 }
 
 a {
-	color: lighten($black, 30%);
+	color: $orange;
 	text-decoration: none;
 	&:hover {
-		color: $orange;
+		color: lighten($black, 30%);
 	}
 }
 
