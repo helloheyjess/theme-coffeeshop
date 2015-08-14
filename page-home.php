@@ -6,7 +6,7 @@
 
 get_header();  ?>
 
-<div class="main">
+<div class="main-home">
   <div class="container">
 
     <?php // Start the loop ?>
