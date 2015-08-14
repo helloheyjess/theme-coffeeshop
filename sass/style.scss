@@ -58,17 +58,6 @@ article.post,
 	margin-top: 50px;
 }
 
-.content article footer {
-	display: flex;
-	justify-content: center;
-	p {
-		color: lighten($black, 30%);
-	}
-	a {
-		color: lighten($black, 30%);
-	}
-}
-
 .full {
 	width: 100%;
 }

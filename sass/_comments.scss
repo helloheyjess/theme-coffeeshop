@@ -272,3 +272,20 @@ p.form-allowed-tags, .nocomments {
 #respond p, #comments-list ul #respond {
 	margin: 0;
 }
+
+.content article footer {
+	display: flex;
+	justify-content: center;
+	@media all and (max-width: 600px) {
+		flex-direction: column;
+	}
+	p {
+		color: lighten($black, 30%);
+		@media all and (max-width: 600px) {
+			margin: 0;
+		}
+	}
+	a {
+		color: lighten($black, 30%);
+	}
+}
