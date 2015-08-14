@@ -24,6 +24,9 @@ footer {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
+	@media all and (max-width: 650px) {
+		display: block;
+	}
 	ul {
 		padding: 0;
 		li {
@@ -33,8 +36,6 @@ footer {
 }
 
 .social-box {
-	// display: flex;
-	// justify-content: flex-start;
 	i {
 		width: 40px;
 		font-size: 1.2rem;
@@ -43,6 +44,10 @@ footer {
 
 .footer-triplet {
 	width: 30%;
+	@media all and (max-width: 650px) {
+		width: 80%;
+		margin: 35px auto;
+	}
 }
 
 .signup {
