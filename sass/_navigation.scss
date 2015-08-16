@@ -8,9 +8,18 @@ ul.menu {
 		margin-bottom: 20px;
 		width: 200px;
 		border: 2px solid $orange;
+		background: rgba($black, 0.5);
+		transition: all 0.5s ease;
+		@media all and (max-width: 442px) {
+			margin-bottom: 5px;
+			margin-right: 0;
+			width: 100%;
+		}
+		&:hover {
+			background: rgba($black, 0.8);
+		}
 		a {
 			color: $warmwhite;
-			background: rgba($black, 0.5);
 			text-transform: uppercase;
 			font-weight: 400;
 			font-size: 18px;
